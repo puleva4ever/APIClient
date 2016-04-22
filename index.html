@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/api.js"></script>
+<title>API Client</title>
+</head>
+<body>
+
+<div id="content"></div>
+
+<div class="form" id="new-user-form">
+	<label for='nu-email'>Email* </label><input type="text" name="email" placeholder="ejemplo@email.com" id="nu-email" /> <br>
+	<label for='nu-password'>Password* </label><input type="text" name="password" id="nu-password" /> <br>
+	<label for='nu-rep-pass'>Repeat Pass.* </label><input type="text" name="password" id="nu-rep-pass" /> <br>
+	<label for='nu-name'>Name* </label><input type="text" name="name" id="nu-name" /> <br>
+	<label for='nu-phone'>Phone </label><input type="text" name="phone" id="nu-phone" /> <br>
+	<label for='nu-rol'>Rol </label><select id="nu-rol">
+										<option value="2">User</option>
+										<option value="3">Moderator</option>
+									</select> <br><br>
+	<input type="button" value="Create" class="btn" id="btn-action-create" />
+</div>
+
+<div class="form" id="edit-form">
+	<label for='ed-email'>Email* </label><input type="text" name="email" placeholder="" value="" id="ed-email" /> <br>
+	<label for='ed-password'>Password* </label><input type="text" name="password" placeholder="" value="" id="ed-password" /> <br>
+	<label for='ed-name'>Name* </label><input type="text" name="name" placeholder="" value="" id="ed-name" /> <br>
+	<label for='ed-phone'>Phone </label><input type="text" name="phone" placeholder="" value="" id="ed-phone" /> <br>
+	<label for='ed-rol'>Rol </label><select id="ed-rol">
+			<option value="2">User</option>
+			<option value="3">Moderator</option>
+		 </select> <br><br>
+	<input type="button" value="Edit" class="btn" id="btn-action-edit" />
+</div>
+
+<div id="msg"></div>
+
+</body>
+</html>

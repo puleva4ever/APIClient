@@ -1,0 +1,101 @@
+body{
+	margin:20px;
+	padding:0;
+	font-family: sans-serif;
+}
+
+table{
+	box-shadow:0px 0px 5px grey;
+}
+
+td{
+	padding:5px;
+	border:1px solid white;
+	box-shadow:0px 0px 3px black;
+}
+
+tr:nth-child(even){
+	background:#E6E6E6;
+}
+
+tbody tr:first-child{
+	text-align:center;
+	font-weight:bold;
+	color:white;
+	background:#6A6A6A;
+}
+
+#btn-new-user{
+	background:rgba(65, 131, 215, 0.5);
+	cursor:pointer;
+}
+
+#btn-new-user:hover{
+	background:rgba(65, 131, 215, 1);
+}
+
+.btn-delete{
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	background:rgba(150, 40, 27, 0.6);
+	-webkit-transition:all 0.1s ease;
+}
+
+.btn-delete:hover{
+	background:rgba(150, 40, 27, 1);
+}
+
+.btn-edit{
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	background:rgba(38, 166, 91, 0.6);
+	-webkit-transition:all 0.1s ease;
+}
+
+.btn-edit:hover{
+	background:rgba(38, 166, 91, 1);
+}
+
+#msg{
+	display:none;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+.form{
+	display:none;
+	margin-top:30px;
+	background:rgba(0, 0, 0, 0.1);
+	padding:20px;
+	width:400px;
+	border:1px solid black;
+	border-radius:2px;
+}
+
+label{
+	display:inline-block;
+	width:115px;
+}
+
+.form select{
+	width:173px;
+}
+
+.btn{
+	width:100px;
+	height:30px;
+	font-weight:bold;
+	margin-left:90px;
+	border:1px solid black;
+	border-radius:2px;
+	cursor:pointer;
+	transition:all 0.1s ease;
+}
+
+.btn:hover{
+	width:110px;
+	background:white;
+	box-shadow:0px 0px 5px black;
+}
